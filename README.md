@@ -24,9 +24,10 @@
 
 <br />
 เวลา add Collider component จะได้ component เพิ่มมา 2 ตัวที่ node นั้นๆ คือ <br />
-* RigidBody component
-* PhysicBoxCollider component
+- RigidBody component
+- PhysicBoxCollider component
 
+<br />
 <br />
 Rigid body = ส่วนร่างของวัตถุที่แข็งๆ (เท่าที่คิดได้แปลได้สวยสุดเท่านี้ :) <br />
 Box collider = เป็น component ไว้ detect collider (หรือการชน) 
