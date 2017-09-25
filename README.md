@@ -23,9 +23,10 @@
    * ไฟล์ script ในให้ add ไว้ที่ Canvas node (rootnode ของ scene นั้นๆ นั่นเอง)
 
 <br />
-เวลา add Collider component จะได้ component เพิ่มมา 2 ตัวที่ node นั้นๆ คือ <br />
-- RigidBody component
-- PhysicBoxCollider component
+เวลา add Collider component จะได้ component เพิ่มมา 2 ตัวที่ node นั้นๆ คือ
+
+* RigidBody component
+* PhysicBoxCollider component
 
 <br />
 <br />
