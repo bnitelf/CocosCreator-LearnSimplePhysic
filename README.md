@@ -13,17 +13,17 @@
 
 ## หลักการทำงานหลัก
 1. Character node (or node ที่ต้องตกลงมาตามแรงโน้มถ่วง)
-  * Add Collider component เป็น box (คือสมมุติว่าวัตถุเป็นสีเหลี่ยม)
-  * set property Type (ส่วน Rigid body component) ให้เป็น dynamic ทำให้วัตถุนี้ร่วงลงตามแรงโน้มถ่วง
-  * set property Allow Sleep uncheck เพื่อให้มันคำนวณตลอดว่าต้องร่วงตอนไหน default มันจะ check มาให้ซึ่งทำให้เวลาเดินเลยคานด้านบนมันไม่ยอมร่วง
+   * Add Collider component เป็น box (คือสมมุติว่าวัตถุเป็นสีเหลี่ยม)
+   * set property Type (ส่วน Rigid body component) ให้เป็น dynamic ทำให้วัตถุนี้ร่วงลงตามแรงโน้มถ่วง
+   * set property Allow Sleep uncheck เพื่อให้มันคำนวณตลอดว่าต้องร่วงตอนไหน default มันจะ check มาให้ซึ่งทำให้เวลาเดินเลยคานด้านบนมันไม่ยอมร่วง
 1. Ground node (or node ที่เป็นพื้นหรือที่ไม่ต้องตกลงมาตามแรงโน้มถ่วง)
-  * Add Collider component เป็น box
-  * set property Type (ส่วน Rigid body component) ให้เป็น static ทำให้วัตถุนี้ไม่ร่วงลงตามแรงโน้มถ่วง มักใช้กับวัตถุที่ต้องลอยอยู่ที่ตำแหน่งของมัน
+   * Add Collider component เป็น box
+   * set property Type (ส่วน Rigid body component) ให้เป็น static ทำให้วัตถุนี้ไม่ร่วงลงตามแรงโน้มถ่วง มักใช้กับวัตถุที่ต้องลอยอยู่ที่ตำแหน่งของมัน
 1. สุดท้ายขาดไม่ได้ต้อง enable ระบบ physic ผ่าน code (ถ้าไม่ enable ระบบ physic จะไม่ทำงาน)
-  * ไฟล์ script ในให้ add ไว้ที่ Canvas node (rootnode ของ scene นั้นๆ นั่นเอง)
+   * ไฟล์ script ในให้ add ไว้ที่ Canvas node (rootnode ของ scene นั้นๆ นั่นเอง)
 
 <br />
-เวลา add Collider component จะได้ component เพิ่มมา 2 ตัวที่ node นั้นๆ คือ
+เวลา add Collider component จะได้ component เพิ่มมา 2 ตัวที่ node นั้นๆ คือ <br />
 * RigidBody component
 * PhysicBoxCollider component
 
